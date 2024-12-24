@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+     .nav_active_link {
+         @apply !text-[#1a9fff] after:!opacity-100 after:!visible;
+     }
+}
